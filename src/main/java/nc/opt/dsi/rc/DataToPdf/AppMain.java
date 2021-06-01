@@ -10,8 +10,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static domain.DataSources.*;
-import static domain.DataSources.getDir;
+import static nc.opt.dsi.rc.DataToPdf.domain.DataSources.*;
+import static nc.opt.dsi.rc.DataToPdf.domain.DataSources.getDir;
 
 @SpringBootApplication
 public class AppMain {

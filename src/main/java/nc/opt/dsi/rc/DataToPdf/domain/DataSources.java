@@ -1,4 +1,4 @@
-package domain;
+package nc.opt.dsi.rc.DataToPdf.domain;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

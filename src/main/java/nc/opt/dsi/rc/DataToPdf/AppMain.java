@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Arrays;
 
 import static nc.opt.dsi.rc.DataToPdf.domain.DataSources.*;
 import static nc.opt.dsi.rc.DataToPdf.domain.DataSources.getDir;
@@ -30,6 +31,14 @@ public class AppMain {
 			form.setField(DESIGNATION, "Lui"); // Champs de la page 2 (tester sur un autre fichier à plusieurs pages OK)
 			form.setField("CheckBox_1", "Oui"); // Usual checkbox or YES depend on default lang
 			form.setField("Group1", "Choice3"); // Group1 = le groupe des options, Choise l'otions à cocher
+			String[] statesCheckBox = form.getAppearanceStates("CheckBox_1");
+			Arrays.stream(statesCheckBox).forEach( s-> {
+				System.out.println(s);
+			});
+			String[] statesOptions = form.getAppearanceStates("Group1");
+			Arrays.stream(statesOptions).forEach( s-> {
+				System.out.println(s);
+			});
 
 			stamper.close();
 			reader.close();

@@ -2,6 +2,10 @@
 
 ## POC : importation de données dans un pdf
 
+Template pdf dans : 
+
+DataToPdf/src/main/resources/pdf/template.pdf
+
 Librairie :
 
 ```java

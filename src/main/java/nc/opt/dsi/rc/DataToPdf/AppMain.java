@@ -27,8 +27,8 @@ public class AppMain {
 			form.setField(NUMERO, "005");
 			form.setField(FIRSTNAME_1, "JAVA");
 			form.setField(FIRSTNAME_2, "DONE");
-			form.setField(DESIGNATION, "Lui"); // Champs de la page 2
-			form.setField("CheckBox_4", "Yes"); // Usual checkbox
+			form.setField(DESIGNATION, "Lui"); // Champs de la page 2 (tester sur un autre fichier à plusieurs pages OK)
+			form.setField("CheckBox_1", "Oui"); // Usual checkbox or YES depend on default lang
 			form.setField("Group1", "Choice3"); // Group1 = le groupe des options, Choise l'otions à cocher
 
 			stamper.close();

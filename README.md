@@ -43,7 +43,7 @@ Arrays.stream(statesCheckBox).forEach( s-> {
 
 **Les valeurs sont dépendantes de la langue du fichier pdf.**
 
-TODO: tout mettre en anglais
+TODO: chercher comment paramétrer la langue
 
 OptionsList :
 ```java
@@ -57,3 +57,7 @@ Arrays.stream(statesCheckBox).forEach( s-> {
 });
 ```
 > Output pour notre projet : Off, Choice1, Choice2, Choice3
+
+## Exemple de formulaire de données dans acrobat dc
+
+![Formulaire de données](formPDF.PNG)

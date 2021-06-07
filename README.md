@@ -1,5 +1,13 @@
 # DataToPdf
 
+## Get started
+
+Lancement standard d'un projet springboot avec votre IDE ou gradle :
+
+```
+gradlew.bat bootRun
+```
+
 ## POC : importation de données dans un pdf
 
 Template pdf dans : 
